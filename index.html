@@ -10,87 +10,50 @@
     <title>Document</title>
 </head>
 <body>
-
-    <div class="new-header">
-    <ul class="nav justify-content-end">
-        
-        <li class="nav-item">
-            <img class="navbar-brand float-left" src="https://www.principality.co.uk/-/media/PBS/Shared-Images/Masthead/pbsLogoBilingual.png?h=80&w=225&la=en&hash=AC272E2DB4AD33CE4999077DE94F8A03" href="#">
-        </li>
-        <li class="nav-item">
-          <a class="nav-link link-secondary" href="#">CYMRAEG</Link></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link link-secondary" href="#">INTERMEDIARIES</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link link-secondary" href="#">FIND A BRANCH</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link link-secondary">CONTACT US</a>
-        </li>
-        <li class="nav-item">
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                  </svg></button>
-              </form>
-        </li>
-              </ul>
-
-
-              <ul class="nav justify-content-end">
-        
-
-                <li class="nav-item">
-                  <a class="nav-link nav-first" href="#">Savings</Link></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link nav-first" href="#">Mortgages</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link nav-first" href="#">Insurance</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link nav-first">Commercial</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link nav-first">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link nav-first nav-first-button btn btn-danger">Your Account</a>
-                </li>
-                   
-                      </ul>
-                    </div>
-
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="https://www.principality.co.uk/-/media/PBS/Commercial/Sustainability-Campaign/Homepage-banner.jpg?h=2238&w=5418&la=en&hash=47BF3914B6F3F51514E106148877EADC" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="https://www.principality.co.uk/-/media/PBS/2021-Press-Releases/Richard-Wales-carousel-banner.png?h=537&w=1300&la=en&hash=45CB6C8FD7E81ADE480F1E6B350CC671" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="https://www.principality.co.uk/-/media/PBS/Commercial/Carousel-banner.png?h=537&w=1300&la=en&hash=2B2C172079F135536F625971EF7D47CE" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="https://www.principality.co.uk/-/media/PBS/Commercial/2019-web/Carousel/themill-herocarousel1.png?h=537&w=1300&la=en&hash=BA6408984C2CE4D1AD8CE04CABB31455" class="d-block w-100" alt="...">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>            
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">BenCullenDev</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Link 1</a>
+              <a class="nav-link" href="#">Link 2</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     
+      <div class="container p-5 mb-4 bg-light rounded-3">
+          <h1 class="display-1">Ben Cullen Web Developer</h1>
+          <button type="button" class="btn btn-primary">Primary</button>
+      </div>
+    
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
